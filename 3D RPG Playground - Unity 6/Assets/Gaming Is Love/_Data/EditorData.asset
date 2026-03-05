@@ -16,11 +16,11 @@ MonoBehaviour:
   lastSaveFormat: 0
   lastEncrypted: 0
   editorHelpLanguageTexts: {fileID: 0}
-  section: 6
-  subSection: 11
-  tabIndex: 18
-  scrollY: 305
-  foldoutLimit: Crafting Settings
+  section: 9
+  subSection: 0
+  tabIndex: -1
+  scrollY: 0
+  foldoutLimit: 
   helpDrag: 220
   subSectionDrag: 250
   tabListDrag: 250
@@ -28,7 +28,7 @@ MonoBehaviour:
   schematicDrag: 350
   jumpListDrag: 250
   dataSelectionSorting: 0
-  typeDataSelectionSorting: 0
+  typeDataSelectionSorting: 2
   createBackup: 0
   updateSchematics: 1
   schematicUpdateFolder: 
@@ -36,7 +36,9 @@ MonoBehaviour:
   updateScenes: 0
   sceneUpdate: 
   schematicAsset:
+  - {fileID: 11400000, guid: 5f94d54e312bf494eb41f574819ee995, type: 2}
   - {fileID: 11400000, guid: d67a98c5a59646b48bbd1ad2dcaa48be, type: 2}
+  - {fileID: 11400000, guid: 4cd549cb9a137a54796c51426f289432, type: 2}
   - {fileID: 11400000, guid: 7d017da5f23788344abef0fb2e4650d6, type: 2}
   - {fileID: 11400000, guid: cdaf444651bd526449fb9551fcae14b9, type: 2}
   - {fileID: 11400000, guid: fdca204b575e44b44bc72f864be6a346, type: 2}
@@ -54,8 +56,6 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 678e93c07aa929a41ae8342b0a25924a, type: 2}
   - {fileID: 11400000, guid: b3cba4a8851169745a0a396ffc5683f5, type: 2}
   - {fileID: 11400000, guid: 800b0dbc6ebfc6d4590b997addd8f3fa, type: 2}
-  - {fileID: 11400000, guid: 6016db33fac30084bb2fed113cb37ce9, type: 2}
-  - {fileID: 11400000, guid: 9907680241e54554594ce341612dbafe, type: 2}
   dialogueImportSettings:
     name: 
     byteData: 
