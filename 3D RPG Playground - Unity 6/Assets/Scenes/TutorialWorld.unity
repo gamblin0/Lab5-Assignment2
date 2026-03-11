@@ -7078,7 +7078,9 @@ MonoBehaviour:
       - {fileID: 11400000, guid: 5f94d54e312bf494eb41f574819ee995, type: 2}
     encrypted: 0
     stringData: 
-  actor: []
+  actor:
+  - actor: []
+  - actor: []
   resources:
     prefab: []
     audioClip: []
@@ -10058,7 +10060,7 @@ MonoBehaviour:
       isGlobalSceneID="False" useAppearingChance="False" appearingChanceFailSetID="False"
       canEscape="False" setLooks="False" keepAtCenter="False" enablePlayerAdvantage="True"
       overridePlayerAdvantageChance="False" enableEnemyAdvantage="True" overrideEnemyAdvantageChance="False"
-      ownStartSchematic="True" ownEndSchematic="False" ownAutoJoin="False" noBattleSetID="False"
+      ownStartSchematic="True" ownEndSchematic="True" ownAutoJoin="False" noBattleSetID="False"
       allGroups="False" useFactionGroups="False" useChanceSelection="False" useCombatantPositionSpots="False"
       ownPlayerSpots="False" ownAllySpots="False" ownEnemySpots="False" />
 
@@ -10091,6 +10093,89 @@ MonoBehaviour:
       </settings>
 
       </startSchematicAsset>
+
+      <victorySchematicAsset>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      <_asset
+      asset="1" />
+
+      </settings>
+
+      </victorySchematicAsset>
+
+      <escapeSchematicAsset>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </escapeSchematicAsset>
+
+      <defeatSchematicAsset>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </defeatSchematicAsset>
+
+      <leaveArenaSchematicAsset>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </leaveArenaSchematicAsset>
 
       <variableChanges>
 
@@ -10132,7 +10217,7 @@ MonoBehaviour:
       </_string>
 
       <_asset
-      asset="1" />
+      asset="2" />
 
       </settings>
 
@@ -10167,91 +10252,6 @@ MonoBehaviour:
       classUseLevelZone="True" />
 
       <combatant>
-
-      <_string>
-
-      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
-
-      </_string>
-
-      <settings>
-
-      <_string>
-
-      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
-
-      </_string>
-
-      <_asset
-      asset="2" />
-
-      </settings>
-
-      </combatant>
-
-      <level type="0"
-      minOffset="-5" maxOffset="5" minRandom="1" maxRandom="99" >
-
-      <_float
-      formulaInitialValue="0" />
-
-      <_bool onlyBattle="False" />
-
-      <_string>
-
-      <key><![CDATA[]]></key>
-
-      </_string>
-
-      </level>
-
-      <classLevel
-      type="3" minOffset="-5" maxOffset="5" minRandom="1" maxRandom="99" >
-
-      <_float
-      formulaInitialValue="0" />
-
-      <_bool onlyBattle="False" />
-
-      <_string>
-
-      <key><![CDATA[1]]></key>
-
-      </_string>
-
-      </classLevel>
-
-      </member>
-
-      <requirement>
-
-      <_bool
-      checkDifficulty="False" />
-
-      <variableCondition needed="0" >
-
-      <_subarrays>
-
-      <variable>
-
-      </variable>
-
-      </_subarrays>
-
-      </variableCondition>
-
-      </requirement>
-
-      </0>
-
-      <1>
-
-      <_float
-      chance="100" />
-
-      <_bool useGroup="False" />
-
-      <faction>
 
       <_string>
 
@@ -10269,193 +10269,6 @@ MonoBehaviour:
 
       <_asset
       asset="3" />
-
-      </settings>
-
-      </faction>
-
-      <group>
-
-      <_string>
-
-      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
-
-      </_string>
-
-      <settings>
-
-      <_string>
-
-      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
-
-      </_string>
-
-      </settings>
-
-      </group>
-
-      <member
-      battleGroupIndex="0" >
-
-      <_bool useType="False" useSubTypes="False" learnAbilities="True"
-      useStartInventory="True" useStartEquipment="True" useInitSchematic="True" blockConditionalPrefabs="False"
-      isPassive="False" passiveMustDefeat="False" setBattleGroupIndex="False" useLevelZone="True"
-      classUseLevelZone="True" />
-
-      <combatant>
-
-      <_string>
-
-      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
-
-      </_string>
-
-      <settings>
-
-      <_string>
-
-      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
-
-      </_string>
-
-      <_asset
-      asset="4" />
-
-      </settings>
-
-      </combatant>
-
-      <level type="0"
-      minOffset="-5" maxOffset="5" minRandom="1" maxRandom="99" >
-
-      <_float
-      formulaInitialValue="0" />
-
-      <_bool onlyBattle="False" />
-
-      <_string>
-
-      <key><![CDATA[]]></key>
-
-      </_string>
-
-      </level>
-
-      <classLevel
-      type="3" minOffset="-5" maxOffset="5" minRandom="1" maxRandom="99" >
-
-      <_float
-      formulaInitialValue="0" />
-
-      <_bool onlyBattle="False" />
-
-      <_string>
-
-      <key><![CDATA[1]]></key>
-
-      </_string>
-
-      </classLevel>
-
-      </member>
-
-      <requirement>
-
-      <_bool
-      checkDifficulty="False" />
-
-      <variableCondition needed="0" >
-
-      <_subarrays>
-
-      <variable>
-
-      </variable>
-
-      </_subarrays>
-
-      </variableCondition>
-
-      </requirement>
-
-      </1>
-
-      <2>
-
-      <_float
-      chance="100" />
-
-      <_bool useGroup="False" />
-
-      <faction>
-
-      <_string>
-
-      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
-
-      </_string>
-
-      <settings>
-
-      <_string>
-
-      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
-
-      </_string>
-
-      <_asset
-      asset="5" />
-
-      </settings>
-
-      </faction>
-
-      <group>
-
-      <_string>
-
-      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
-
-      </_string>
-
-      <settings>
-
-      <_string>
-
-      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
-
-      </_string>
-
-      </settings>
-
-      </group>
-
-      <member
-      battleGroupIndex="0" >
-
-      <_bool useType="False" useSubTypes="False" learnAbilities="True"
-      useStartInventory="True" useStartEquipment="True" useInitSchematic="True" blockConditionalPrefabs="False"
-      isPassive="False" passiveMustDefeat="False" setBattleGroupIndex="False" useLevelZone="True"
-      classUseLevelZone="True" />
-
-      <combatant>
-
-      <_string>
-
-      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
-
-      </_string>
-
-      <settings>
-
-      <_string>
-
-      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
-
-      </_string>
-
-      <_asset
-      asset="6" />
 
       </settings>
 
@@ -10514,7 +10327,7 @@ MonoBehaviour:
 
       </requirement>
 
-      </2>
+      </0>
 
       </combatant>
 
@@ -10530,10 +10343,7 @@ MonoBehaviour:
     lookUp:
       assets:
       - {fileID: 11400000, guid: ed0dad98d18f7ea4e85079df3b4d827f, type: 2}
-      - {fileID: 11400000, guid: 2384e56236ae84340967b802cbad6bd8, type: 2}
-      - {fileID: 11400000, guid: 3f27ece6c11b8994dbd7ced6ef0cdbfb, type: 2}
-      - {fileID: 11400000, guid: 2384e56236ae84340967b802cbad6bd8, type: 2}
-      - {fileID: 11400000, guid: 06c63b9ae7b10404f995ef6e62ba3469, type: 2}
+      - {fileID: 11400000, guid: 08fcee19df5dd854b93c1d693c831e08, type: 2}
       - {fileID: 11400000, guid: 2384e56236ae84340967b802cbad6bd8, type: 2}
       - {fileID: 11400000, guid: 11d104fc52743334b9af4140daff38c9, type: 2}
     encrypted: 0
@@ -14199,142 +14009,6 @@ MonoBehaviour:
 
       </0>
 
-      <1>
-
-      <_float
-      chance="100" />
-
-      <_bool useGroup="False" />
-
-      <faction>
-
-      <_string>
-
-      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
-
-      </_string>
-
-      <settings>
-
-      <_string>
-
-      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
-
-      </_string>
-
-      <_asset
-      asset="4" />
-
-      </settings>
-
-      </faction>
-
-      <group>
-
-      <_string>
-
-      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
-
-      </_string>
-
-      <settings>
-
-      <_string>
-
-      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
-
-      </_string>
-
-      </settings>
-
-      </group>
-
-      <member
-      battleGroupIndex="0" >
-
-      <_bool useType="False" useSubTypes="False" learnAbilities="True"
-      useStartInventory="True" useStartEquipment="True" useInitSchematic="True" blockConditionalPrefabs="False"
-      isPassive="False" passiveMustDefeat="False" setBattleGroupIndex="False" useLevelZone="True"
-      classUseLevelZone="True" />
-
-      <combatant>
-
-      <_string>
-
-      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
-
-      </_string>
-
-      <settings>
-
-      <_string>
-
-      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
-
-      </_string>
-
-      <_asset
-      asset="5" />
-
-      </settings>
-
-      </combatant>
-
-      <level type="0"
-      minOffset="-5" maxOffset="5" minRandom="1" maxRandom="99" >
-
-      <_float
-      formulaInitialValue="0" />
-
-      <_bool onlyBattle="False" />
-
-      <_string>
-
-      <key><![CDATA[]]></key>
-
-      </_string>
-
-      </level>
-
-      <classLevel
-      type="3" minOffset="-5" maxOffset="5" minRandom="1" maxRandom="99" >
-
-      <_float
-      formulaInitialValue="0" />
-
-      <_bool onlyBattle="False" />
-
-      <_string>
-
-      <key><![CDATA[1]]></key>
-
-      </_string>
-
-      </classLevel>
-
-      </member>
-
-      <requirement>
-
-      <_bool
-      checkDifficulty="False" />
-
-      <variableCondition needed="0" >
-
-      <_subarrays>
-
-      <variable>
-
-      </variable>
-
-      </_subarrays>
-
-      </variableCondition>
-
-      </requirement>
-
-      </1>
-
       </combatant>
 
       <itemGains>
@@ -14352,8 +14026,6 @@ MonoBehaviour:
       - {fileID: 11400000, guid: 2647f54140b0e0342b9341113dd7fe21, type: 2}
       - {fileID: 11400000, guid: 2384e56236ae84340967b802cbad6bd8, type: 2}
       - {fileID: 11400000, guid: 3f27ece6c11b8994dbd7ced6ef0cdbfb, type: 2}
-      - {fileID: 11400000, guid: 2384e56236ae84340967b802cbad6bd8, type: 2}
-      - {fileID: 11400000, guid: 06c63b9ae7b10404f995ef6e62ba3469, type: 2}
     encrypted: 0
     stringData: 
 --- !u!4 &1620755702

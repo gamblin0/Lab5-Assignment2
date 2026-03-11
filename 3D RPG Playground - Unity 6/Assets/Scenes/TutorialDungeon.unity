@@ -11662,7 +11662,7 @@ MonoBehaviour:
 
       <_string>
 
-      <value><![CDATA[TutorialDungeon]]></value>
+      <value><![CDATA[World]]></value>
 
       <_type><![CDATA[GamingIsLove.Makinom.StringValue_ValueType`1]]></_type>
 
@@ -11683,7 +11683,7 @@ MonoBehaviour:
       <settings>
 
       <_float
-      value="1" />
+      value="8" />
 
       <_string>
 
