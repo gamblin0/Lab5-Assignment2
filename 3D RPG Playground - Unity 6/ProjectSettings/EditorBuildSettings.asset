@@ -35,4 +35,11 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Dungeon/Dungeon Battle Arena.unity
     guid: 89f53162a4204d645b441e1310e54735
+  - enabled: 1
+    path: Assets/Scenes/TutorialWorld.unity
+    guid: d1d6dbd92d1b75e45a611af7617d1d84
+  - enabled: 1
+    path: Assets/Scenes/TutorialDungeon.unity
+    guid: 1420aff227db67e4c9dfc3bd671ca714
   m_configObjects: {}
+  m_UseUCBPForAssetBundles: 0
